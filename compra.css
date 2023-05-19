@@ -1,0 +1,72 @@
+body{
+    background-image: url("https://www.elincorrecto.mx/wp-content/uploads/2018/11/estadio-azteca.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.formulario{
+    /* text-align: center; */
+    position: absolute;
+    top: 5%;
+    left: 18%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px; 
+}
+
+.pregunta{
+    width: 400px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+
+.pregunta2{
+    width: 270px;
+}
+
+#queen{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 570px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+#boton{
+    color: white;
+    background-color: rgba(0, 0, 200);
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#boton:hover{
+    color: black;
+    background-color: white;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.boletos{
+    /* position: absolute;
+    top: 70%;
+    left: 18%; */
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px; 
+
+}

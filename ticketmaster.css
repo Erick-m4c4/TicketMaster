@@ -1,0 +1,118 @@
+body{
+    background-image: url("https://www.elincorrecto.mx/wp-content/uploads/2018/11/estadio-azteca.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#titulo{
+    background-color: black;
+    color: white;
+    border-radius: 1px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor{
+    /* display: flex; */
+    text-align: center;
+    margin: 0 auto;
+    width: 1300px;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.luismi{
+    width: auto;
+    /* height: 300px; */
+    height: 450px;
+    display: flex;
+    align-items: center;
+    background-image: url("https://www.minutoneuquen.com/u/fotografias/m/2020/4/17/f1280x720-243008_374683_5050.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a.enlace:focus{
+    background-color: black;
+    color: white;
+} 
+
+a.enlace{
+    margin: 20px;
+    width: 150px;
+    border-radius:20px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.enlace:hover{
+    background-color: black ;
+    color: white;
+}
+
+.imagen1{
+    align-items: center;
+    text-align: right;
+    position: absolute;
+    top: 600px;
+    left: 150px;
+    background-color: rgba(255, 0, 0, 0.7);
+    height: 335px;
+    width: 310px;
+    border-radius: 5%;
+}
+
+.imagen2{
+    align-items: center;
+    text-align: right;
+    position: absolute;
+    top: 600px;
+    right: 150px;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 335px;
+    width: 310px;
+    border-radius: 5%;
+}
+
+.imagen3{
+    align-items: center;
+    text-align: right;
+    position: absolute;
+    top: 600px;
+    right: 610px;
+    background-color: rgba(71, 129, 111, 0.7);
+    height: 335px;
+    width: 310px;
+    border-radius: 5%;
+}
+
+.letras{
+    position: relative;
+    right: 5%;
+}
+
+.artistas{
+    position: relative;
+    top: 3%;
+}
+
+.tt{
+    position: absolute;
+    top: 950px;
+    right: 0%;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+
